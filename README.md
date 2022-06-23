@@ -34,3 +34,9 @@ Le projet implémente également des fonctionnalités optionnelles comme:
 * Les parenthèses pour ajouter des priorités d'execution
 * Les variables locales et env
 * Alias
+
+
+
+### Utilisation
+
+Le 42sh s'utilise comme la plupart des autres shells avec des fonctionnalités tout aussi avancés. En partant des commandes les plus simples comme un "cat" jusqu'aux commandes complexes qui demande l'utilisation de variable d'environement ou encore des pipes tout est possible. Une gestion d'erreurs assure une parfaite stabilité du programme.
