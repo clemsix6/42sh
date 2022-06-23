@@ -40,3 +40,17 @@ Le projet implémente également des fonctionnalités optionnelles comme:
 ### Utilisation
 
 Le 42sh s'utilise comme la plupart des autres shells avec des fonctionnalités tout aussi avancés. En partant des commandes les plus simples comme un "cat" jusqu'aux commandes complexes qui demande l'utilisation de variable d'environement ou encore des pipes tout est possible. Une gestion d'erreurs assure une parfaite stabilité du programme.
+
+#### Exemple
+
+```
+$> error_test
+error_test: Command not found.
+$> ls
+include  lib  Makefile  mysh  README.md  src  SUMMARY.md
+$> cat SUMMARY.md
+# Table of contents
+
+* [Minishell2](README.md)
+$> 
+```
