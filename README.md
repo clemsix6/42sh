@@ -9,11 +9,11 @@ Le 42sh est un des trois projets finalistes de l'année. Il est dans la continui
 ### Fonctionnalités
 
 * Gestion des espaces ET des tabs
-* Gestion de la variable $PATH et de l'environement
+* Gestion de la variable $PATH et de l'environnement
 * Gestion des erreurs des commandes et des valeurs de retour
 * Gestion des opérateurs de redirection
 * Gestion des pipes
-* Gestion des fonctions intégrés ("cd", "echo", "exit", "setenv", "unsetenv")
+* Gestion des fonctions intégrées ("cd", "echo", "exit", "setenv", "unsetenv")
 * Gestion des séparateurs
 
 Le 42sh est donc capable de fonctionner avec des commandes complexes comme ci-dessous:
@@ -28,10 +28,10 @@ Le 42sh est donc capable de fonctionner avec des commandes complexes comme ci-de
 
 Le projet implémente également des fonctionnalités optionnelles comme:
 
-* L'opérateur inhibiteurs ("\\")
+* L'opérateur inhibiteur ("\\")
 * Les opérateurs d'englobement ("\*", "?", "\[", "]")
 * La gestion des tâches ("&", fg)
-* Les parenthèses pour ajouter des priorités d'execution
+* Les parenthèses pour ajouter des priorités d'exécution
 * Les variables locales et env
 * Alias
 
@@ -39,7 +39,7 @@ Le projet implémente également des fonctionnalités optionnelles comme:
 
 ### Utilisation
 
-Le 42sh s'utilise comme la plupart des autres shells avec des fonctionnalités tout aussi avancés. En partant des commandes les plus simples comme un "cat" jusqu'aux commandes complexes qui demande l'utilisation de variable d'environement ou encore des pipes tout est possible. Une gestion d'erreurs assure une parfaite stabilité du programme.
+Le 42sh s'utilise comme la plupart des autres shells avec des fonctionnalités tout aussi avancés. En partant des commandes les plus simples comme un "cat" jusqu'aux commandes complexes qui demande l'utilisation de variable d'environnement ou encore des pipes tout est possible. Une gestion d'erreurs assure une parfaite stabilité du programme.
 
 #### Exemple
 
